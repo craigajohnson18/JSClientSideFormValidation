@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Form</title>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class = "content">
+  <div id="error"></div>
+  <form id="form" action="/" method="GET">
+    <label for="name">Name:</label>
+    <input id="name" name="name" type="text" required>
+    <br>
+    </br>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password">
+    <button type="submit">Submit</button>
+  </div>
+  </form>
+</body>
+</html>
+
+<!--Refactor for better separation of CSS Elements-->
